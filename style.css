@@ -1,0 +1,74 @@
+#top{
+  width: 100%;
+  background: #c6c6c5 url(/images/banner.jpg) no-repeat top center;
+  z-index: 1;
+  height: 384px;
+  min-width: 980px;
+}
+body{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  margin: 0 0;
+  padding: 0 0;
+}
+/* LIST #1 */
+#nav { margin-top: 5px;}
+#nav ul { list-style:none; text-align:center; padding:0 0; }
+#nav ul li { display:inline; padding:0 10px; letter-spacing:2px; line-height: 30px }
+#nav ul li a { text-decoration:none; color:black; }
+#nav ul li a:hover { text-decoration:none; }
+.wrapper{
+  width: 980px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+#top img{
+  display: none;
+  position: relative;
+  top: 106px;
+  left: 194px;
+}
+h2{
+  position: relative;
+  text-align: center;
+  z-index: 9999;
+}
+h2 span{
+  background-color: white;
+  padding: 0 10px;
+}
+hr{
+  position: relative;
+  top: 33px;
+display: block; height: 1px;
+    border: 0; border-top: 1px solid yellow;
+    margin: 0 0; padding: 0;
+z-index: 2;
+    }
+.text{
+  padding: 10px;
+  display: inline-block;
+  margin-right: 40px;
+}
+.hightlight-first-letter p:first-letter{
+  font-size: 20px;
+  font-weight: 800;
+}
+.text.column p{
+  width: 400px
+}
+strong{
+  color: yellow;
+  background-color: #c6c6c5;
+  padding: 5px 10px;
+}
+.column-3 strong{
+  margin: 0 0;
+  padding: 0 0;
+}
+.column-3{
+  background-color: #c6c6c5;
+  margin: 10px 10px;
+  padding: 13px 13px;
+  width: 280px;
+  float: left;
+}
