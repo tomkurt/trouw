@@ -1,6 +1,6 @@
 $(function(){
   $('#top').hover(
-    function(){ $('#top img').show() },
-    function(){ $('#top img').hide() }
+    function(){ $('#lichtjes').show() },
+    function(){ $('#lichtjes').hide() }
   )
 })
