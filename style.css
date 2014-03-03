@@ -104,6 +104,9 @@ color: red;}
 strong{
   font-weight: 400;
 }
-#hogebomen{
+.beneden{
   margin-top: 25px;
+}
+.dag1, .dag2deel1, .dag2deel2{
+  display: none;
 }
