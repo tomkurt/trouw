@@ -11,12 +11,12 @@ body{
   font-weight: 200;
   margin: 0 0;
   padding: 0 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 /* LIST #1 */
 #nav { margin-top: 15px; font-size: 19px;}
 #nav ul { list-style:none; text-align:center; padding:0 0; }
-#nav ul li { display:inline; padding:0 10px; letter-spacing:2px; line-height: 30px }
+#nav ul li.display { display:inline; padding:0 10px; letter-spacing:2px; line-height: 30px }
 #nav ul li a { text-decoration:none; color:black; }
 #nav ul li a:hover { text-decoration:none; }
 #lichtjes{
@@ -90,7 +90,7 @@ text-align: center;
 border: red 1px solid;
 
 }
-#code{
+.submitbutton{
 background-color: white;
 color: red;}
 
@@ -107,20 +107,16 @@ strong{
 .beneden{
   margin-top: 25px;
 }
-.dag1, .dag2deel1, .dag2deel2, .cadeau{
+.dag1, .dag2deel1, .dag2deel2, .dag2deel3, .cadeau, .confirm{
   display: none;
 }
 .clear{
   margin-bottom: 120px;
 }
-form{
-  margin-top: 120px;
-}
 #lichtjes{
   display: none;
 }
 #navwrapper{
-  display: none;
   z-index: 99999;
   position: fixed;
   width: 100%;
@@ -133,7 +129,23 @@ form{
   border-bottom: 1px solid red;
 }
 #navwrapper.display{
-  display: block;
   top: 0px;
+}
 
+label{
+  width: 450px;
+  float: left;
+}
+#mc_embed_signup li{
+  text-transform: initial;
+}
+#mc_embed_signup input{
+  font-size: 15px;
+  width: 300px
+}
+.mc-field-group{
+  margin-bottom: 25px;
+}
+.kleinespleet{
+  margin-bottom: 40px;
 }

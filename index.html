@@ -10,19 +10,7 @@
     <script src="jquery.scrollTo.min.js"></script>
   </head>
   <body>
-    <div id="navwrapper">
-    <div class="container_4">
-    <div id="nav">
-      <ul>
-        <li><a href="index.html">De trouw</a></li>
-        <li><a href="location.html">Waar?</a></li>
-        <li><a href="#">Cadeau</a></li>
-        <li><a href="#">Wegbeschrijving</a></li>
-        <li><a href="#">Bevestig je komst</a></li>
-      </ul>
-    </div>
-    </div>
-    </div>
+   
     <div id="top">
       <div class="container_4">
         <div class="grid_1">
@@ -34,22 +22,22 @@
         </div>
       </div>
     </div>
-    <div class="clear">&nbsp;</div>
+    <div class="clear kleinespleet">&nbsp;</div>
     <div  class="container_4">
       <div class="grid_4 hightlight-first-letter">
-        <p> Welkom op de site die ons trouwfeest voor jullie uit de doeken doet! Jullie hebben allemaal een kaartje gekregen met een hint van informatie. De belangrijkste informatie is natuurlijk dat we trouwen en wanneer! <br/>Maar hier vind je het iets uitgebreider terug!</p><p>
+        <p> Welkom op de site die ons trouwfeest voor jullie uit de doeken doet!</p><p>
         Wij passen niet in een typische trouwzaal, en de stress van een klassiek trouwfeest zien wij ook niet zitten. Dus hebben we beslist om het helemaal te doen zoals wij er van dromen! Je zou kunnen zeggen dat we een pick-nick-chique trouwfeest geven. Gezellig, onder vrienden &amp; familie en op plaatsen waar we ons het meest thuisvoelen. Bereid je maar voor op onze eclectische stijl, met hier en daar een eigenaardigheid.</p><p>
         Om het volledige programma te kunnen zien moet je eerst de code die je bij je uitnodigingskaart gekregen heb invullen in onderstaand vakje. De rest zal te voorschijn komen!</p>
         <div style="text-align:center">
-          <form>
+          <form id="codeform">
             <input id='code_input' placeholder='Geef code in'>
-            <input id='code' type="submit" value="zend">
+            <input class='submitbutton' type="submit" value="zend">
           </form>
         </div>
       </div>
       <div class="clear">&nbsp;</div>
       <div class="grid_4 dag1">
-        <h2>DAG #1</h2>
+        <h2>Trouw voor de wet</h2>
         <h3>VRIJDAG 27 JUNI</h3>
         <ul>
           <li>15:20 - Stadhuis van Gent</li>
@@ -79,7 +67,7 @@
       </div>
       <div class="clear dag1">&nbsp;</div>
       <div class="grid_2 dag2deel1">
-        <h2>Dag #2 - Deel 1</h2>
+        <h2>Pic-nic-receptie</h2>
         <h3>ZATERDAG 28 JUNI</h3>
         <ul>
           <li>11:30 - Fietstocht naar Deinze</li>
@@ -116,24 +104,26 @@
     <div class="clear dag2deel1">&nbsp;</div>
     <div class="container_4 dag2deel2">
       <div class="grid_2">
-        <h2>Dag #2 - deel 2</h2>
+        <h2>Avondfeest</h2>
         <ul>
           <li>18:30 - Aperitief in HUSET</li>
           <li>19:30 - Eten</li>
+          <li>21:30 - Korte dansinitiatie</li>
+          <li>22:00 - Dansfeest</li>
         </ul>
         <p>
         's Avonds gaan we verder in HUSET.
         Het achterhuis wordt omgetoverd tot een heuse feestzaal! Waar jullie kunnen komen eten, drinken, lachen, babbelen en dansen!
         In het caf&eacute; kan je dan rustig even bekomen als het allemaal even te veel wordt.
-        We zorgen voor wat speciale gebeurtenissen die de avond nog leuker maken!
-        Wij zijn al helemaal enthousiast!
-        Hopelijk jullie ook! :)
+        We zorgen voor wat speciale gebeurtenissen die de avond nog leuker maken!<br/>
+        Wij zijn al helemaal enthousiast!<br/>
+        Hopelijk jullie ook! :)<br/>
         P.S.Wens je vegetarisch te eten gelieve tijdens je bevestiging dit te vermelden.
       </p></div>
       <div class="grid_2 dag2deel2">
         <img src="images/huset.jpg">
       </div>
-      <div class="grid_2 colorblock push_2 beneden dag2deel2">
+      <div class="grid_2 colorblock beneden dag2deel2">
         <div>
           <p>HUSET <br/>Hoogstraat 49</br> 9000 Gent</p>
           <p>
@@ -144,6 +134,35 @@
       </div>
     </div>
     <div class="clear dag1">&nbsp;</div>
+    <div class="container_4 dag2deel3">
+      <div class="grid_2">
+        <h2>Dansfeest</h2>
+        <ul>
+          <li>21:30 - Korte dansinitiatie</li>
+          <li>22:00 - Dansfeest</li>
+        </ul>
+        <p>
+        's Avonds gaan we verder in HUSET.
+        Het achterhuis wordt omgetoverd tot een heuse feestzaal! Waar jullie kunnen komen drinken, lachen, babbelen en dansen!
+        In het caf&eacute; kan je dan rustig even bekomen als het allemaal even te veel wordt.
+        We zorgen voor wat speciale gebeurtenissen die de avond nog leuker maken!<br/>
+        Wij zijn al helemaal enthousiast!<br/>
+        Hopelijk jullie ook! :)
+      </p></div>
+      <div class="grid_2 dag2deel3">
+        <img src="images/huset.jpg">
+      </div>
+      <div class="grid_2 colorblock push_2 beneden dag2deel3">
+        <div>
+          <p>HUSET <br/>Hoogstraat 49</br> 9000 Gent</p>
+          <p>
+          Parkeren doe je best in de parking op St-Michiels of de ramen. Deze bevinden zich beiden op wandelafstand van HUSET.
+          Neem je de trein neem je best tram 1 richting centrum en stap je af op de korenmarkt of de
+          burgstraat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="clear dag2deel3">&nbsp;</div>
     <div class="container_4 cadeau">
       <div class="grid_2">
         <img src="images/owl.png">
@@ -155,8 +174,85 @@
         <p>BE1245 456 678 23<br/>KREDBEBB</p>
       </div>
     </div>
-          <div class="clear dag1">&nbsp;</div>
+          <div class="clear cadeau">&nbsp;</div>
+    <div class="container_4 confirm">
 
+
+
+
+
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://evelineroels.us5.list-manage.com/subscribe/post?u=c072d0cf02ff0c1fd8a8edde6&amp;id=0605f69e89" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <h2>Bevestig je komst!</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+  <label for="mce-VOORNAAM">Voornaam  <span class="asterisk">*</span>
+</label>
+  <input type="text" value="" name="VOORNAAM" class="required" id="mce-VOORNAAM">
+</div>
+<div class="mc-field-group">
+  <label for="mce-NAAM">Achternaam  <span class="asterisk">*</span>
+</label>
+  <input type="text" value="" name="NAAM" class="required" id="mce-NAAM">
+</div>
+<div class="mc-field-group">
+  <label for="mce-EMAIL">E-mail Adres  <span class="asterisk">*</span>
+</label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group input-group">
+   <strong>Bevestig je aanwezigheid  <span class="asterisk">*</span>
+</strong>
+   <ul><li><input type="radio" value="Ja! Ik kom!" name="MMERGE3" id="mce-MMERGE3-0"><label for="mce-MMERGE3-0">Ja! Ik kom!</label></li>
+<li><input type="radio" value="Sorry, ik kan er niet bijzijn" name="MMERGE3" id="mce-MMERGE3-1"><label for="mce-MMERGE3-1">Sorry, ik kan er niet bijzijn</label></li>
+</ul>
+</div>
+<div class="mc-field-group">
+  <label for="mce-MMERGE4">Breng je je partner mee? Geef dan hier de naam op! </label>
+  <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
+</div>
+<div class="mc-field-group">
+  <label for="mce-MMERGE5">Extra vragen of info?! Laat het ons weten! </label>
+  <input type="text" value="" name="MMERGE5" class="" id="mce-MMERGE5">
+</div>
+  <div id="mce-responses">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+   <div style="position: absolute; left: -5000px;"><input type="text" name="b_c072d0cf02ff0c1fd8a8edde6_0605f69e89" value=""></div>
+  <input type="submit" value="Bevestig" name="subscribe" id="mc-embedded-subscribe" class="submitbutton">
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+          <div class="clear confirm">&nbsp;</div>
+
+
+
+
+
+
+
+
+    </div>
   </div>
+   <div id="navwrapper">
+    <div class="container_4">
+    <div id="nav">
+      <ul>
+        <li class="dag1"><a href="#" data-show="dag1">Trouw voor de wet</a></li>
+        <li class="dag2deel1"><a href="#" data-show="dag2deel1">Pic-nic-receptie</a></li>
+        <li class="dag2deel2"><a href="#" data-show="dag2deel2">Avondfeest</a></li>
+        <li class="dag2deel3"><a href="#" data-show="dag2deel3">Dansfeest</a></li>
+        <li class="cadeau"><a href="#" data-show="cadeau">Cadeau</a></li>
+        <li class="confirm"><a href="#" data-show="confirm">Bevestig je komst</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
