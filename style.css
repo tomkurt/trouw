@@ -107,7 +107,7 @@ strong{
 .beneden{
   margin-top: 25px;
 }
-.dag1, .dag2deel1, .dag2deel2{
+.dag1, .dag2deel1, .dag2deel2, .cadeau{
   display: none;
 }
 .clear{
@@ -115,4 +115,25 @@ strong{
 }
 form{
   margin-top: 120px;
+}
+#lichtjes{
+  display: none;
+}
+#navwrapper{
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: -66px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid red;
+}
+#navwrapper.display{
+  display: block;
+  top: 0px;
+
 }
