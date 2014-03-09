@@ -8,15 +8,19 @@ $(function(){
     switch($('#code_input').val()){
       case 'DK3KLJ3':
         $('*').show()
+        $.scrollTo('.dag1', 'slow', {offset: {top: -20, left:0} });
         break;
       case 'LKJD83':
         $('.dag2deel1').show()
+        $.scrollTo('.dag2deel1', 'slow', {offset: {top: -20, left:0} });
         break;
       case 'LKFJD3':
         $('.dag2deel3').show()
+        $.scrollTo('.dag2deel3', 'slow', {offset: {top: -20, left:0} });
         break;
       case 'DLSJDF0':
         $('.dag2deel2, .dag2deel3').show()
+        $.scrollTo('.dag2deel2', 'slow', {offset: {top: -20, left:0} });
         break;
     }
   })

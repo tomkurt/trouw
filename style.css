@@ -110,3 +110,9 @@ strong{
 .dag1, .dag2deel1, .dag2deel2{
   display: none;
 }
+.clear{
+  margin-bottom: 120px;
+}
+form{
+  margin-top: 120px;
+}
