@@ -5,7 +5,7 @@ $(function(){
   )
   $('#codeform').submit(function(e){
     e.preventDefault();
-    switch($('#code_input').val()){
+    switch($('#code_input').val().toUpperCase()){
       case 'DK3KLJ3':
         $('.dag1, .dag2deel1, .dag2deel2, .cadeau, .confirm').addClass('display')
         $('.dag1, .dag2deel1, .dag2deel2, .cadeau, .confirm').show()
@@ -32,6 +32,11 @@ $(function(){
         $.scrollTo('.dag2deel1', 'slow', {offset: {top: -80, left:0} });
         break;
       case 'DLSJDF0':
+        $('.dag2deel2, .cadeau, .confirm').addClass('display')
+        $('.dag2deel2, .cadeau, .confirm').show()
+        $.scrollTo('.dag2deel2', 'slow', {offset: {top: -80, left:0} });
+        break;
+      case 'DLSJDFO':
         $('.dag2deel2, .cadeau, .confirm').addClass('display')
         $('.dag2deel2, .cadeau, .confirm').show()
         $.scrollTo('.dag2deel2', 'slow', {offset: {top: -80, left:0} });
